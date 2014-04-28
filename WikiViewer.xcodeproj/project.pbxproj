@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F1B261C190E65E00028B138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1B261B190E65E00028B138 /* Foundation.framework */; };
+		6F1B261E190E65E00028B138 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1B261D190E65E00028B138 /* CoreGraphics.framework */; };
+		6F1B2620190E65E00028B138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1B261F190E65E00028B138 /* UIKit.framework */; };
+		6F1B2626190E65E00028B138 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B2624190E65E00028B138 /* InfoPlist.strings */; };
+		6F1B2628190E65E00028B138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B2627190E65E00028B138 /* main.m */; };
+		6F1B262C190E65E00028B138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B262B190E65E00028B138 /* AppDelegate.m */; };
+		6F1B262F190E65E00028B138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B262D190E65E00028B138 /* Main.storyboard */; };
+		6F1B2632190E65E00028B138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B2631190E65E00028B138 /* ViewController.m */; };
+		6F1B2634190E65E00028B138 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B2633190E65E00028B138 /* Images.xcassets */; };
+		6F1B263B190E65E10028B138 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1B263A190E65E10028B138 /* XCTest.framework */; };
+		6F1B263C190E65E10028B138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1B261B190E65E00028B138 /* Foundation.framework */; };
+		6F1B263D190E65E10028B138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1B261F190E65E00028B138 /* UIKit.framework */; };
+		6F1B2645190E65E10028B138 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B2643190E65E10028B138 /* InfoPlist.strings */; };
+		6F1B2647190E65E10028B138 /* WikiViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B2646190E65E10028B138 /* WikiViewerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F1B263E190E65E10028B138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1B2610190E65E00028B138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1B2617190E65E00028B138;
+			remoteInfo = WikiViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F1B2618190E65E00028B138 /* WikiViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1B261B190E65E00028B138 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F1B261D190E65E00028B138 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F1B261F190E65E00028B138 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F1B2623190E65E00028B138 /* WikiViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WikiViewer-Info.plist"; sourceTree = "<group>"; };
+		6F1B2625190E65E00028B138 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F1B2627190E65E00028B138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F1B2629190E65E00028B138 /* WikiViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WikiViewer-Prefix.pch"; sourceTree = "<group>"; };
+		6F1B262A190E65E00028B138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F1B262B190E65E00028B138 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F1B262E190E65E00028B138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F1B2630190E65E00028B138 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F1B2631190E65E00028B138 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F1B2633190E65E00028B138 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F1B2639190E65E10028B138 /* WikiViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1B263A190E65E10028B138 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6F1B2642190E65E10028B138 /* WikiViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WikiViewerTests-Info.plist"; sourceTree = "<group>"; };
+		6F1B2644190E65E10028B138 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F1B2646190E65E10028B138 /* WikiViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiViewerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F1B2615190E65E00028B138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1B261E190E65E00028B138 /* CoreGraphics.framework in Frameworks */,
+				6F1B2620190E65E00028B138 /* UIKit.framework in Frameworks */,
+				6F1B261C190E65E00028B138 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1B2636190E65E10028B138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1B263B190E65E10028B138 /* XCTest.framework in Frameworks */,
+				6F1B263D190E65E10028B138 /* UIKit.framework in Frameworks */,
+				6F1B263C190E65E10028B138 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1B260F190E65E00028B138 = {
+			isa = PBXGroup;
+			children = (
+				6F1B2621190E65E00028B138 /* WikiViewer */,
+				6F1B2640190E65E10028B138 /* WikiViewerTests */,
+				6F1B261A190E65E00028B138 /* Frameworks */,
+				6F1B2619190E65E00028B138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F1B2619190E65E00028B138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F1B2618190E65E00028B138 /* WikiViewer.app */,
+				6F1B2639190E65E10028B138 /* WikiViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F1B261A190E65E00028B138 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F1B261B190E65E00028B138 /* Foundation.framework */,
+				6F1B261D190E65E00028B138 /* CoreGraphics.framework */,
+				6F1B261F190E65E00028B138 /* UIKit.framework */,
+				6F1B263A190E65E10028B138 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F1B2621190E65E00028B138 /* WikiViewer */ = {
+			isa = PBXGroup;
+			children = (
+				6F1B262A190E65E00028B138 /* AppDelegate.h */,
+				6F1B262B190E65E00028B138 /* AppDelegate.m */,
+				6F1B262D190E65E00028B138 /* Main.storyboard */,
+				6F1B2630190E65E00028B138 /* ViewController.h */,
+				6F1B2631190E65E00028B138 /* ViewController.m */,
+				6F1B2633190E65E00028B138 /* Images.xcassets */,
+				6F1B2622190E65E00028B138 /* Supporting Files */,
+			);
+			path = WikiViewer;
+			sourceTree = "<group>";
+		};
+		6F1B2622190E65E00028B138 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F1B2623190E65E00028B138 /* WikiViewer-Info.plist */,
+				6F1B2624190E65E00028B138 /* InfoPlist.strings */,
+				6F1B2627190E65E00028B138 /* main.m */,
+				6F1B2629190E65E00028B138 /* WikiViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F1B2640190E65E10028B138 /* WikiViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F1B2646190E65E10028B138 /* WikiViewerTests.m */,
+				6F1B2641190E65E10028B138 /* Supporting Files */,
+			);
+			path = WikiViewerTests;
+			sourceTree = "<group>";
+		};
+		6F1B2641190E65E10028B138 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F1B2642190E65E10028B138 /* WikiViewerTests-Info.plist */,
+				6F1B2643190E65E10028B138 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F1B2617190E65E00028B138 /* WikiViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1B264A190E65E10028B138 /* Build configuration list for PBXNativeTarget "WikiViewer" */;
+			buildPhases = (
+				6F1B2614190E65E00028B138 /* Sources */,
+				6F1B2615190E65E00028B138 /* Frameworks */,
+				6F1B2616190E65E00028B138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiViewer;
+			productName = WikiViewer;
+			productReference = 6F1B2618190E65E00028B138 /* WikiViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F1B2638190E65E10028B138 /* WikiViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1B264D190E65E10028B138 /* Build configuration list for PBXNativeTarget "WikiViewerTests" */;
+			buildPhases = (
+				6F1B2635190E65E10028B138 /* Sources */,
+				6F1B2636190E65E10028B138 /* Frameworks */,
+				6F1B2637190E65E10028B138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F1B263F190E65E10028B138 /* PBXTargetDependency */,
+			);
+			name = WikiViewerTests;
+			productName = WikiViewerTests;
+			productReference = 6F1B2639190E65E10028B138 /* WikiViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F1B2610190E65E00028B138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					6F1B2638190E65E10028B138 = {
+						TestTargetID = 6F1B2617190E65E00028B138;
+					};
+				};
+			};
+			buildConfigurationList = 6F1B2613190E65E00028B138 /* Build configuration list for PBXProject "WikiViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F1B260F190E65E00028B138;
+			productRefGroup = 6F1B2619190E65E00028B138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F1B2617190E65E00028B138 /* WikiViewer */,
+				6F1B2638190E65E10028B138 /* WikiViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F1B2616190E65E00028B138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1B2634190E65E00028B138 /* Images.xcassets in Resources */,
+				6F1B2626190E65E00028B138 /* InfoPlist.strings in Resources */,
+				6F1B262F190E65E00028B138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1B2637190E65E10028B138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1B2645190E65E10028B138 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F1B2614190E65E00028B138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1B2632190E65E00028B138 /* ViewController.m in Sources */,
+				6F1B262C190E65E00028B138 /* AppDelegate.m in Sources */,
+				6F1B2628190E65E00028B138 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1B2635190E65E10028B138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1B2647190E65E10028B138 /* WikiViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F1B263F190E65E10028B138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F1B2617190E65E00028B138 /* WikiViewer */;
+			targetProxy = 6F1B263E190E65E10028B138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F1B2624190E65E00028B138 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1B2625190E65E00028B138 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F1B262D190E65E00028B138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1B262E190E65E00028B138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F1B2643190E65E10028B138 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1B2644190E65E10028B138 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F1B2648190E65E10028B138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F1B2649190E65E10028B138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F1B264B190E65E10028B138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WikiViewer/WikiViewer-Prefix.pch";
+				INFOPLIST_FILE = "WikiViewer/WikiViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F1B264C190E65E10028B138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WikiViewer/WikiViewer-Prefix.pch";
+				INFOPLIST_FILE = "WikiViewer/WikiViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6F1B264E190E65E10028B138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WikiViewer.app/WikiViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WikiViewer/WikiViewer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WikiViewerTests/WikiViewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6F1B264F190E65E10028B138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WikiViewer.app/WikiViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WikiViewer/WikiViewer-Prefix.pch";
+				INFOPLIST_FILE = "WikiViewerTests/WikiViewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F1B2613190E65E00028B138 /* Build configuration list for PBXProject "WikiViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1B2648190E65E10028B138 /* Debug */,
+				6F1B2649190E65E10028B138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F1B264A190E65E10028B138 /* Build configuration list for PBXNativeTarget "WikiViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1B264B190E65E10028B138 /* Debug */,
+				6F1B264C190E65E10028B138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F1B264D190E65E10028B138 /* Build configuration list for PBXNativeTarget "WikiViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1B264E190E65E10028B138 /* Debug */,
+				6F1B264F190E65E10028B138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F1B2610190E65E00028B138 /* Project object */;
+}
